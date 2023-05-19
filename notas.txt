@@ -1,0 +1,18 @@
+python --version => Saber si esta instalado y que versión. 
+pip --version => gestor de paquetes de python y que versión 
+pip freeze => listado de librerias instaladas en la maquina o entorno. 
+pip uninstall [nombrelibreria] => destinar libreria en maquina o entorno ej: pip uninstall Django
+virtualenv => libreria para crear entornos virtuales.
+python -m venv entorno => creación de entorno virtual. 
+[ubicación_carpeta_entorno]/Scripts/activate => activación de entorno virtual. (Ej: .\entorno\Scripts\activate) (Windows)
+source/bin/activate => => activación de entorno virtual. (Kernel Linux | MacOS)
+pip install -r requeriments.txt => Instala toda las librerias del entorno virtual.
+django-admin startproject [nombre_proyecto] . (El punto para instalar en raiz) => instalación de proyecto en django.
+python .\manage.py makemigrations => prepara la migración de los modelos nuevos, eliminados o actualizado.
+python .\manage.py migrate => migrar modelos a la base de datos definida en settings.
+
+
+
+Hosting de python / django => https://www.pythonanywhere.com/
+
+** Repositorio de librerias de python pypi.org
